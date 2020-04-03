@@ -1,0 +1,46 @@
+{
+  "sources": [
+    {
+      "web": "http://openfoodfacts.org", 
+      "name": "St\u00e9phane Gigandet", 
+      "email": "stephane@openfoodfacts.org"
+    }
+  ], 
+  "description": "Food products database with ingredients and nutrition facts for manufactured food products from around the world. See http://openfoodfacts.org", 
+  "license": {
+    "url": "http://www.opendefinition.org/licenses/odc-odbl", 
+    "type": "odc-odbl", 
+    "title": "Open Data Commons Open Database License (ODbL)"
+  }, 
+  "title": "Open Food Facts", 
+  "keywords": [
+    "consumer-product", 
+    "food", 
+    "food and beverages", 
+    "nutrition"
+  ], 
+  "resources": [
+    {
+      "path": "http://fr.openfoodfacts.org/data/fr.openfoodfacts.org.products.rdf", 
+      "title": "fr.openfoodfacts.org.products.rdf", 
+      "description": "Food products database with ingredients and nutrition facts for manufactured food products from around the world. This dataset contains the products from the French version at http://fr.openfoodfacts.org", 
+      "name": "fr-openfoodfacts-org-products-rdf", 
+      "format": "rdf:products:org:openfoodfacts"
+    }, 
+    {
+      "path": "http://en.openfoodfacts.org/data/en.openfoodfacts.org.products.rdf", 
+      "title": "en.openfoodfacts.org.products.rdf", 
+      "description": "Food products database with ingredients and nutrition facts for manufactured food products from around the world. This dataset contains the products from the English version at http://en.openfoodfacts.org", 
+      "name": "en-openfoodfacts-org-products-rdf", 
+      "format": "rdf:products:org:openfoodfacts"
+    }, 
+    {
+      "path": "http://es.openfoodfacts.org/data/es.openfoodfacts.org.products.rdf", 
+      "title": "es.openfoodfacts.org.products.rdf", 
+      "description": "Food products database with ingredients and nutrition facts for manufactured food products from around the world. This dataset contains the products from the Spanish version at http://es.openfoodfacts.org", 
+      "name": "es-openfoodfacts-org-products-rdf", 
+      "format": "rdf:products:org:openfoodfacts"
+    }
+  ], 
+  "name": "open-food-facts"
+}
